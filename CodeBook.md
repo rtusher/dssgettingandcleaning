@@ -161,5 +161,5 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 
 ##Source
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+[View the original source of data at UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
