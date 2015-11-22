@@ -27,28 +27,29 @@ The data was obtained from this file [UCI HAR Dataset.zip]  (https://d396qusza40
 The file **'Dataset.zip'** should be unzipped to a directory/folder that will be the working directory for the analysis.
 
 
-##What is the data?
+##What is There in the Original the Dataset?
 The data consists of
 
--activity_labels.txt that contains a list of the **Activity Names**
+- activity_labels.txt that contains a list of the **Activity Names**
 
--features.txt that contains a list of the **Measures** analysed.
+- features.txt that contains a list of the **Measures** analysed.
+
 
 For the **test** part of the experiment 
 
--test/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
+- test/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
 
--test/subject_test.txt that contains in row *n* of the X_test.txt file
+- test/subject_test.txt that contains in row *n* of the X_test.txt file
 
--test/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
+- test/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
 
 For the **train** part of the experiment
 
--train/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
+- train/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
 
--train/subject_test.txt that contains in row *n* of the X_test.txt file
+- train/subject_test.txt that contains in row *n* of the X_test.txt file
 
--train/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
+- train/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
 
 
 
