@@ -4,7 +4,7 @@ Data Science Specialization Getting and Cleaning Data.
 Peer evaluated project
 
 
-*TO RUN THE PROJECT*
+**TO RUN THE PROJECT**
 
 1) Inside R environment set the working directory
 
