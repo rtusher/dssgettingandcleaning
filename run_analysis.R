@@ -84,18 +84,19 @@ ObtainAndClean <- function (){
 
 #
 # *******     ONLY FUNCTION TO BE CALLED TO PERFORM THE ANALYSIS        *****
-# main()
+# run_analysis()
 # 
 #
 
 
-main  <- function() {
+run_analysis  <- function() {
   
   DataSet  <- ObtainAndClean() 
   
   Summary  <-  DataSet %>% group_by(ACTIVITY.NAME, SUBJECT.ID) %>% summarise_each(funs(mean))
   
   write.table(Summary,file="TidyDataSetToUpload.txt",row.name=FALSE)
+  Summary
 }
 
 
