@@ -30,26 +30,26 @@ The file **'Dataset.zip'** should be unzipped to a directory/folder that will be
 ##What is There in the Original the Dataset?
 The data consists of
 
-- activity_labels.txt that contains a list of the **Activity Names**
+- _activity_labels.txt_ that contains a list of the **Activity Names**
 
-- features.txt that contains a list of the **Measures** analysed.
+- _features.txt_ that contains a list of the **Measures** analysed.
 
 
 For the **test** part of the experiment 
 
-- test/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
+- _test/X_test.txt_ that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
 
-- test/subject_test.txt that contains in row *n* of the X_test.txt file
+- _test/subject_test.txt_ that contains in row *n* of the X_test.txt file
 
-- test/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
+- _test/y_text.txt_ that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
 
 For the **train** part of the experiment
 
-- train/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
+- _train/X_test.txt_ that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
 
-- train/subject_test.txt that contains in row *n* of the X_test.txt file
+- _train/subject_test.txt_ that contains in row *n* of the X_test.txt file
 
-- train/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
+- _train/y_text.txt_ that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
 
 
 
