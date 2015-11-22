@@ -26,7 +26,7 @@ Be shure that the workind directory contains
 	
 3) Run the script.   In the main prompt 
 
-   run_analysis()
+	run_analysis()
    
    
    
