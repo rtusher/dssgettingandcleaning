@@ -40,6 +40,7 @@ For the **test** part of the experiment
 -test/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
 
 For the **train** part of the experiment
+
 -train/X_test.txt that contains the Measures of the test part of the experiment. Each row comes from a specific subject performing specific activity.
 -train/subject_test.txt that contains in row *n* of the X_test.txt file
 -train/y_text.txt that contains the Activities performed by the subject in the *n* row of the X_test.txt  file
@@ -50,16 +51,15 @@ For the **train** part of the experiment
 #What the Function *run_analysis* will do?
 
 
-- Merge
+- Merge the two datasets 
 
-Attribute Information:
+- Create a tidy dataset inserting columns of the labels obtained from the Features and Activities files
 
-For each record in the dataset it is provided: 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+- Extract the columns that contains Mean and 
+
+- Change the names of the variables/columns for readability
 
 
-SOURCE
+#Source
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
