@@ -63,39 +63,39 @@ For the **train** part of the experiment
 #The Measurements of the Experiment 
 
 
--tBodyAcc-XYZ
+- tBodyAcc-XYZ
 
--tGravityAcc-XYZ
+- tGravityAcc-XYZ
 
--tBodyAccJerk-XYZ
+- tBodyAccJerk-XYZ
 
--tBodyGyro-XYZ
+- tBodyGyro-XYZ
 
--tBodyGyroJerk-XYZ
+- tBodyGyroJerk-XYZ
 
--tBodyAccMag
+- tBodyAccMag
 
--tGravityAccMag
+- tGravityAccMag
 
--tBodyAccJerkMag
+- tBodyAccJerkMag
 
--tBodyGyroMag
+- tBodyGyroMag
 
--tBodyGyroJerkMag
+- tBodyGyroJerkMag
 
--fBodyAcc-XYZ
+- fBodyAcc-XYZ
 
--fBodyAccJerk-XYZ
+- fBodyAccJerk-XYZ
 
--fBodyGyro-XYZ
+- fBodyGyro-XYZ
 
--fBodyAccMag
+- fBodyAccMag
 
--fBodyAccJerkMag
+- fBodyAccJerkMag
 
--fBodyGyroMag
+- fBodyGyroMag
 
--fBodyGyroJerkMag
+- fBodyGyroJerkMag
 
 
 
