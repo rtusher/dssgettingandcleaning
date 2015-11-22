@@ -59,6 +59,9 @@ For the **train** part of the experiment
 
 - Change the names of the variables/columns for readability
 
+1. Replaces the string '()' with empty string
+2. Replaces all ocurrences of '-' with '.' 
+
 
 ##The Measurements of the Experiment 
 
