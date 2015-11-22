@@ -5,7 +5,7 @@
 
 ##Description
 
-
+The goal of the project consists of prepare a 'Tidy Dataset' extracted from experimental data that could not be in a adecuate format to be analysed or processed.
 
 ##The Experiment Source of Data
 
@@ -57,17 +57,29 @@ For the **train** part of the experiment
 ##What the Function *run_analysis* will do?
 
 
-- Merge the two datasets 
+1. Read the Measures and Activities in the main folder/directory
 
-- Create a tidy dataset inserting columns of the labels obtained from the Features and Activities files
+2. Obtain a 'cleaned' list of the Features in our interest (Those containing 'mean' and 'std' in their names)
 
-- Extract the columns that contains Mean and 
+3. Read each  dataset from it's source folder/directory
 
-- Change the names of the variables/columns for readability
+  1. Read a the file
+  
+  2. Extract the columns that contains that are in the 'cleaned' list of Features
+  
+  3. Add two columns: one for the subject, and another for the activity
+  
+  4. Change the names of the variables/columns for readability
+  
+	1. Replacing the string '()' with empty string
+	
+	2. Replacing all ocurrences of '-' with '.' 
 
-1. Replaces the string '()' with empty string
+4. Merge the two datasets 
 
-2. Replaces all ocurrences of '-' with '.' 
+5. Obtain the summary grouping by activity name and subject id.
+
+6. Writes the summary to a file named 'TidyDataSetToUpload.txt' in the working directory.
 
 
 ##The Measurements of the Experiment 
